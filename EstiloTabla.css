@@ -1,6 +1,16 @@
-table,td{
-    border:  whitesmoke 2px groove;
+table{
+    table-layout: fixed;
+    border:none;
 }
+
+th, td {
+    border: 1px groove;
+    width: 65px;
+    height: 65px;
+    word-wrap: break-word;
+}
+
+
 .vacio{
     border:none;
 }
@@ -35,3 +45,9 @@ table,td{
 .lantanidosyactinidos{
     background-color: #72945a;
 }
+a:hover {
+    background-color: #f7db6a;
+    transform: scale(1.1);
+}
+
+a:active{background-color:#4ca1e5;}
