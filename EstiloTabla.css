@@ -54,10 +54,12 @@ a:hover {
     width: 100%;
     height: 100%;
     text-decoration: none;
-    padding: 1px;
+    padding: 3%;
 }
 
-a{text-decoration: none;}
+a{
+    text-decoration: none;
+    color:#000000;}
 
 a:active{ background-color:#e54caf;}
 
