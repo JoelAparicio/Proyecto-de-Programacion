@@ -1,10 +1,11 @@
 table{
     table-layout: fixed;
     border:none;
+    border-spacing:5px 5px
 }
 
 th, td {
-    border: 1px groove;
+    border: 1px;
     width: 65px;
     height: 65px;
     word-wrap: break-word;
