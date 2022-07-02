@@ -8,11 +8,18 @@ body{
     background-color:   #daf8ff
 }
 
+h3{
+    text-align: center;
+}
+
 header{
     background: linear-gradient(90deg, rgb(168, 232, 255) 0%, #4ca1e5 35%, #184083 100%);
     text-align: center;
     margin: 0%;
 }
+
+
+
 
     header .logo{
     width: 200px;
@@ -57,60 +64,57 @@ header{
     border: 3px solid #011963;
 }
 
-.contenedor-noticias{
-    border: 3px solid #011963;
+.contenedor-noticias-cursos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20PX;
-    padding: 20px;
+    gap: 10%;
+    padding: 3%;
+
 }
 
-    .subcontenedor-noticias{
+    .subcontenedor-noticias-cursos{
         border: 3px solid #011963;
         border-radius: 5px;
+        padding-left: auto;
 
     }
+        
+        .item1-VideosN{
+            text-align: center;
+            border: 3px solid #011963;
+            
+        }
 
-.contenedor-Tabla{
-    display: flex;
+
+.contenedor-Tabla-contactanos{
     border: 3px solid #011963;
-    padding: 20px;
+    padding: 2%  15% 2% 15%;
 }
 
-    .subcontenedor-Tabla{
+    .subcontenedor-Tabla-contactanos{
         border: 3px solid #011963;
-        border-radius: 5px;
+        border-radius: 10px;
+        padding: 2%;
 
     }
-
-#contenedor-cursos{display: grid; grid-template-rows: repeat(2, ifr);}
     
-.contenedor-cursos{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20PX;
-    padding: 20px;
-}
+        .item2-Tabla{
+            position: relative;
+            min-height: 200px;
+            overflow: hidden;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
 
-    .subcontenedor-cursos{
-        border: 3px solid #011963;
-        border-radius: 5px;
+        .item2-Tabla h3{
+            text-align: left;
 
-    }
+        }
 
-
-.contenedor-contactanos{
-    display: flex;
-    border: 3px solid #011963;
-    padding: 20px;
-}
-
-    .subcontenedor-contactanos{
-        border: 3px solid #011963;
-        border-radius: 5px;
-
-
-    }
+#contenedor-basico{display: grid; grid-template-rows: repeat(2, ifr);}
+    
 
 #marge{margin: 0px 50px 0px 50px;display: inline-block;}
 
@@ -119,7 +123,7 @@ footer {
     display: grid;
     background-color: #79ebeb;
     border: 3px solid #79ebeb;
-    padding: 20px;
+    padding: 0;
     grid-template-columns: repeat(3, 1fr);
 }
 
