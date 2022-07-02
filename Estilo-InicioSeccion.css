@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:   #daf8ff
+}
+
+header{
+    background: linear-gradient(90deg, rgb(168, 232, 255) 0%, #4ca1e5 35%, #184083 100%);
+    text-align: center;
+    margin: 0%;
+}
+
+    header .logo{
+    width: 200px;
+    height: 190px;
+    }
+
+    
+.encabezado{
+    background-color: #79ebeb;
+}
+    .encabezado div{
+        display: flex;
+        justify-content:left;
+    }
+    .encabezado div ul {
+        list-style: none;
+        display: flex;
+        justify-content:space-between;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        padding: 12px 20px;
+        display: block;
+    }
+    a:hover{
+        background: white;
+    }
+    .encabezado div ul li ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background: rgb(14, 194, 207);
+        display: none;
+    }
+    .encabezado div ul li:hover > ul{
+        display: block;
+    }
+
+.contenedor-bienv{
+    border: 3px solid #011963;
+}
+
+.contenedor-noticias{
+    border: 3px solid #011963;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20PX;
+    padding: 20px;
+}
+
+    .subcontenedor-noticias{
+        border: 3px solid #011963;
+        border-radius: 5px;
+
+    }
+
+.contenedor-Tabla{
+    display: flex;
+    border: 3px solid #011963;
+    padding: 20px;
+}
+
+    .subcontenedor-Tabla{
+        border: 3px solid #011963;
+        border-radius: 5px;
+
+    }
+
+#contenedor-cursos{display: grid; grid-template-rows: repeat(2, ifr);}
+    
+.contenedor-cursos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20PX;
+    padding: 20px;
+}
+
+    .subcontenedor-cursos{
+        border: 3px solid #011963;
+        border-radius: 5px;
+
+    }
+
+
+.contenedor-contactanos{
+    display: flex;
+    border: 3px solid #011963;
+    padding: 20px;
+}
+
+    .subcontenedor-contactanos{
+        border: 3px solid #011963;
+        border-radius: 5px;
+
+
+    }
+
+#marge{margin: 0px 50px 0px 50px;display: inline-block;}
+
+
+footer {
+    display: grid;
+    background-color: #79ebeb;
+    border: 3px solid #79ebeb;
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+    .footer{
+        border: 3px solid #011963;
+        padding: 10px;
+    }
+
+footer img {
+    width: 100px;
+    height: 100px;
+    margin: 0 0% 0 30%;
+}
+
