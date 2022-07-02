@@ -1,0 +1,17 @@
+footer {
+    display: grid;
+    background-color: #79ebeb;
+    border: 3px solid #79ebeb;
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+    .footer{
+        padding: 10px;
+    }
+
+footer img {
+    width: 100px;
+    height: 100px;
+    margin: 0 0% 0 30%;
+}

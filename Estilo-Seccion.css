@@ -1,0 +1,69 @@
+body , html {
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-Seccion {
+    display: flex;
+    background-color: rgb(251, 251, 251);
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor-formulario {
+    background-color: #9db5ff;
+    padding: 50%;
+    text-align: center; 
+    padding: 20px;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    border-radius: 10px;
+}
+
+#komi {
+    height: 200px;
+    width: 200px;
+}
+
+.Seccion-form{
+    justify-content: center;
+    margin: 0% 20% 0% 20% ;
+    
+}
+
+.Seccion-input input[Type="text"], [Type="number"], [Type="password"]{
+    margin: 10% 0% 15% 0% ;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: transparent;
+    height: 30%;
+    width: 80%;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+}
+
+.Seccion-botones{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+    .Seccion-control form [type="button"], [type="submit"]{
+        margin: 0% 0% 0% 0% ;
+        text-decoration: none;
+        /*no sirve para nada por el momento*/
+        
+    }
+
+
+
+
+

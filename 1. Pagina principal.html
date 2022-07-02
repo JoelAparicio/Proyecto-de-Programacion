@@ -5,23 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina principal</title>
-    <link rel="stylesheet" href="./uwus.css">
+    <link rel="stylesheet" href="./Estilo-Seccion.css">
 </head>
 
 <body>
-
-    <div class="Caja1">
-        <img src="./komi.png" id="komi">
+    <div class="contenedor-Seccion">
+        <div class="contenedor-formulario">
+            <img src="./komi.png" id="komi">
         <h2>Login</h2>
-        <form>
-            <label for="boton-nombre"> Nombre: </label> 
-            <input type="text" id="boton-nombre" name="nombre"/> <br>
-            <label for="boton-password"> Contraseña: </label>
-            <input type="password" id="boton-password" name="password"/>    <br>
-            <input type="submit" name="Enviar" id="boton-Enviar">
-            <button type="button" id="boton-registro"> <a href="./2. Pagina registro.html">Registro</a> </button> 
-        </form>
+            <form class="Seccion-form">
+                <div class="Seccion-input">
+                    <input type="text" id="boton-nombre" name="nombre" placeholder="Nombre"/>
+                </div> 
+                <div class="Seccion-input">
+                    <input type="password" id="boton-password" name="Contraseña" placeholder="Contraseña"/>  
+                </div>
+                
+                <div class="Seccion-botones">
+                    <div class="Seccion-control">
+                        <button type="button" id="boton-registro"> <a href="./2. Pagina registro.html" >Registrarse</a> </button> 
+                    </div>
+                    <div class="Seccion-control">
+                        <input type="submit" name="Enviar" id="boton-Enviar">
+                    </div>   
+                </div>
+            </form> 
+        </div> 
     </div>
-
 </body>
 </html>
