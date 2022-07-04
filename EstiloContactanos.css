@@ -4,6 +4,7 @@ h1{
 .imagen{
     height: 180px;
     width: 220px;
+    border-radius: 49%;
 }
 .flexbox1{
     display: flex;
