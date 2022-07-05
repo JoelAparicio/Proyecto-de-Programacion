@@ -8,7 +8,7 @@ body , html {
 
 .contenedor-Seccion {
     display: flex;
-    background-color: rgb(251, 251, 251);
+    background-image: url('./patron.png');
     align-items: center;
     justify-content: center;
     height: 100%;
@@ -16,7 +16,7 @@ body , html {
 }
 
 .contenedor-formulario {
-    background-color: #9db5ff;
+    background-color: #0c1c41;
     padding: 50%;
     text-align: center; 
     padding: 20px;
