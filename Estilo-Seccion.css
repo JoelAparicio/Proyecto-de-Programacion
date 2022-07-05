@@ -88,4 +88,22 @@ button:hover{
     font-size: 18px;
   }
 
+  footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #0b1f4d;
+    color: #ACE5FF;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+
+    footer img {
+        width: 100px;
+        height: 100px;
+        margin: 0 0% 0 30%;
+        border-radius: 50px;
+    }
 
