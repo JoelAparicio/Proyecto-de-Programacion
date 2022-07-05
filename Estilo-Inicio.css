@@ -123,13 +123,10 @@ header{
             border: 3px solid #011963;
             
         }
-
-
-.contenedor-2{
-    border: 3px solid #011963;
-    padding: 2%  15% 2% 15%;
-}
-
+        .item1-VideosN a{
+            color: rgb(255, 0, 0);
+            
+        }
     .subcontenedor-2{
         border: 3px solid #011963;
         border-radius: 10px;
