@@ -148,7 +148,7 @@ th, td {
     padding: 5PX;
 }
 
-    .TablaP a:hover {
+    #Tabla a:hover {
         background-color: #031FA2;
         color:#ffffff;
         transform: scale(1.1);
@@ -163,7 +163,7 @@ th, td {
         text-decoration: none;
         color:#000000;}
 
-    .TablaP a:active{ background-color:#e54caf;}
+    #Tabla a:active{ background-color:#e54caf;}
 
 .imagen{
     height: 180px;
