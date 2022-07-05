@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Registro exitoso de estudiante</title>
-<link rel="stylesheet" type="text/css" href="./Style.css">
+<link rel="stylesheet" href="./Estilo-Seccion.css">
 </head>
 <body>
 <%@ page import="java.sql.*"%>
