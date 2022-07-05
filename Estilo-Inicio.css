@@ -8,62 +8,90 @@ body{
     background-color:   #daf8ff
 }
 
+h1{
+    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Pattaya', sans-serif;
+    font-family: 'Tiro Bangla', serif;
+    font-size: 500%;
+    color: #ACE5FF;
+}
+
+
+
 h3{
     text-align: center;
 }
 
 header{
-    background: linear-gradient(90deg, rgb(168, 232, 255) 0%, #4ca1e5 35%, #184083 100%);
+    background: #143278;
     text-align: center;
     margin: 0%;
+    display: flex;
+    justify-content: center; 
+    justify-content: space-evenly; 
+    align-items: center;
+
 }
-
-
-
 
     header .logo{
-    width: 200px;
-    height: 190px;
+    height: 200PX;
+    width: 200PX;
     }
 
-    
-.encabezado{
-    background-color: #79ebeb;
-    position: sticky;  
+    header h2{
+        font-family: "Segoe UI";
+        font-size: 350%;
+        color: #ffffff;
+    }
+    .encabezado{
+        width: 100%;
+        background-color: #ACE5FF;
+        position: fixed;
+    }
+
+.encabezado2{
+    background-color: #143278;
+    position: sticky;
 }
-    .encabezado div{
+    .encabezado2 div{
         display: flex;
         justify-content:left;
     }
-    .encabezado div ul {
+    .encabezado2 div ul {
         list-style: none;
         display: flex;
         justify-content:space-between;
     }
-    a{
+    .encabezado2 a{
         text-decoration: none;
         font-size: 20px;
-        color: black;
+        color: rgb(255, 255, 255);
         padding: 12px 20px;
         display: block;
     }
-    a:hover{
-        background: white;
+    .encabezado2 a:hover{
+        background: #ACE5FF;
+        color: #011963;
     }
-    .encabezado div ul li ul{
+    .encabezado2 div ul li ul{
         display: flex;
         flex-direction: column;
         position: absolute;
-        background: rgb(14, 194, 207);
+        background: #49B9D5;
         display: none;
     }
-    .encabezado div ul li:hover > ul{
+    .encabezado2 div ul li:hover > ul{
         display: block;
     }
 
 .contenedor-bienv{
-    border: 3px solid #011963;
+    height: 500px;
 }
+.contenedor-bienv img{
+    height: 100%;
+    width: 100%;
+}
+
 
 .contenedor-1{
     display: grid;
@@ -95,8 +123,12 @@ header{
     .subcontenedor-2{
         border: 3px solid #011963;
         border-radius: 10px;
-        padding: 2%;
 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-grow: 2;
+        justify-content: space-between;
     }
     
         .item2-Tabla{
@@ -107,12 +139,24 @@ header{
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
+            flex-basis: 400px;
+        }
+
+        .item3-Tabla {
+            display: block;
+            border: 3px solid #011963;
+            width: max-content;
         }
 
         .item2-Tabla h3{
             text-align: left;
 
         }
+
+        a:hover{
+            background: #ACE5FF;
+            opacity: 0.5;
+            color: #011963;}
         
 #contenedor-basico{display: grid; grid-template-rows: repeat(2, ifr);}
     
@@ -122,8 +166,7 @@ header{
 
 footer {
     display: grid;
-    background-color: #79ebeb;
-    border: 3px solid #79ebeb;
+    background-color: #0b1f4d;
     padding: 0;
     grid-template-columns: repeat(3, 1fr);
 }
