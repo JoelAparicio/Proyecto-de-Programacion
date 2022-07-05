@@ -29,6 +29,7 @@ header{
     
 .encabezado{
     background-color: #79ebeb;
+    position: sticky;  
 }
     .encabezado div{
         display: flex;
@@ -64,7 +65,7 @@ header{
     border: 3px solid #011963;
 }
 
-.contenedor-noticias-cursos{
+.contenedor-1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10%;
@@ -72,7 +73,7 @@ header{
 
 }
 
-    .subcontenedor-noticias-cursos{
+    .subcontenedor-1{
         border: 3px solid #011963;
         border-radius: 5px;
         padding-left: auto;
@@ -86,12 +87,12 @@ header{
         }
 
 
-.contenedor-Tabla-contactanos{
+.contenedor-2{
     border: 3px solid #011963;
     padding: 2%  15% 2% 15%;
 }
 
-    .subcontenedor-Tabla-contactanos{
+    .subcontenedor-2{
         border: 3px solid #011963;
         border-radius: 10px;
         padding: 2%;
@@ -112,7 +113,7 @@ header{
             text-align: left;
 
         }
-
+        
 #contenedor-basico{display: grid; grid-template-rows: repeat(2, ifr);}
     
 
