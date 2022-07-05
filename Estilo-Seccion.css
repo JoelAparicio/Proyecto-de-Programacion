@@ -16,7 +16,7 @@ body , html {
 }
 
 .contenedor-formulario {
-    background-color: #0c1c41;
+    background-color: #143278;
     padding: 50%;
     text-align: center; 
     padding: 20px;
@@ -26,9 +26,15 @@ body , html {
     border-radius: 10px;
 }
 
-#komi {
-    height: 200px;
-    width: 200px;
+.contenedor-formulario h2{
+    font-family: "Segoe UI";
+    font-size: 200%;
+    margin: 10px;
+}
+
+#logop {
+    height: 115px;
+    width: 115px;
 }
 
 .Seccion-form{
@@ -37,17 +43,21 @@ body , html {
 }
 
 .Seccion-input input[Type="text"], [Type="number"], [Type="password"]{
-    margin: 10% 0% 15% 0% ;
+    margin: 10% 0% 20% 0% ;
     justify-content: center;
     align-items: center;
     border: none;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid #ffffff;
     background: transparent;
     height: 30%;
     width: 80%;
     color: #fff;
     font-size: 16px;
     display: block;
+}
+
+.Seccion-input p{
+    font-family: "Segoe UI";
 }
 
 .Seccion-botones{
@@ -68,7 +78,7 @@ body , html {
 }
 
 button{
-    background-color: #3874c4;
+    background-color: #EEA2B3;
     border: none;
     color: white;
     padding: 10px 24px;
@@ -79,12 +89,14 @@ button{
     font-size: 16px;
     border-radius: 3px 3px 3px 3px;
 }
-button:hover{
-    background-color: rgb(143, 120, 247);
-}
+    button:hover, a:hover{
+        background-color: #ACE5FF;
+        color: #0b1f4d;
+    }
+
 
 ::placeholder {
-    color: rgb(97, 95, 95);
+    color: rgb(182, 182, 182);
     font-size: 18px;
   }
 
