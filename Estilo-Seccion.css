@@ -34,7 +34,6 @@ body , html {
 .Seccion-form{
     justify-content: center;
     margin: 0% 20% 0% 20% ;
-    
 }
 
 .Seccion-input input[Type="text"], [Type="number"], [Type="password"]{
@@ -54,16 +53,39 @@ body , html {
 .Seccion-botones{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
+    border-radius: 3px 3px 3px 3px;
+    
 }
-    .Seccion-control form [type="button"], [type="submit"]{
-        margin: 0% 0% 0% 0% ;
-        text-decoration: none;
-        /*no sirve para nada por el momento*/
-        
-    }
+.Seccion-control {
+    margin: 0% 0% 0% 0% ;
+    text-decoration: none;
+    border: none;     
+}
+.Seccion-control, a{
+    text-decoration: none;
+    font-style: none;
+    color: white;
+}
 
+button{
+    background-color: #3874c4;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px 3px 3px 3px;
+}
+button:hover{
+    background-color: rgb(143, 120, 247);
+}
 
-
+::placeholder {
+    color: rgb(97, 95, 95);
+    font-size: 18px;
+  }
 
 
