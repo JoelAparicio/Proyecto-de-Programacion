@@ -138,14 +138,15 @@ th, td {
 .segundatabla{
     margin-top: 50px;
     margin-left: 150px;
+    margin-bottom: 50px;
 }
 .lantanidosyactinidos{
     background-color: #7fca49;
 }
 
 .TablaP{
-    height:  100%;
-    padding: 5PX;
+
+    padding: 20PX;
 }
 
     #Tabla a:hover {
@@ -170,25 +171,29 @@ th, td {
     width: 220px;
     border-radius: 49%;
 }
-.flexbox1{
+.flexbox{
     display: flex;
     justify-content: center;
     padding-top: 4%;
+    padding-bottom: 4%;
 }
-.flexbox2{
-    display: flex;
-    justify-content: center;
-    padding-top: 4%;
-}
-.item1{
+
+.item{
     margin-right: 10%;
     margin-left:10%;
+    text-align: center;
 }
-.item2{
-    margin-right: 10%;
-    margin-left:10%;
-}
+
     
+.contactanos{
+    padding: 20px;
+}
+
+.contactanos h1{
+    color: #f79e4b;
+}
+
+
 footer {
     display: flex;
     flex-direction: row;
