@@ -167,8 +167,8 @@ th, td {
     #Tabla a:active{ background-color:#e54caf;}
 
 .imagen{
-    height: 180px;
-    width: 220px;
+    height: 225px;
+    width: 210px;
     border-radius: 49%;
 }
 .flexbox{
@@ -191,10 +191,22 @@ th, td {
 
 .contactanos h1{
     color: #f79e4b;
+    font-weight: bold;
 }
 
+.contactanos h4{
+    color: #0b1f4d;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 0 5% 0;
+}
 
-footer {
+.contactanos p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0b1f4d;
+    margin: 0 0 5% 0;
+}
+
+   footer {
     display: flex;
     flex-direction: row;
     background-color: #0b1f4d;
