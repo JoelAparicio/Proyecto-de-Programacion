@@ -149,57 +149,19 @@ p{
         margin: 20px;
     } 
     .pQuimica{
-        color: #CCCC99;
+        color: #011963;
         font-family: Georgia, serif;
         font-size: 20px;
         margin: 20px;
     } 
   
-.formulario{font-family: "Courier New", Courier, monospace;
-    color:#1d0404;}
+.formulario{font-family: Arial;
+    color:#000000;
+    background-color: #ffffff;
+    padding: 5px 10px;}
 
-fieldset {background-color: #eeeeee;}
-      
-legend {
-        background-color: gray;
-        color:  white;
-        padding: 5px 10px;
-}
-      
 input {margin: 5px;}
 
-/* El link sera de este color. 
-Una vez sea visitado el link se quiere que tenga el mismo color con el cual se inicio*/
-.enlacepie a:link, a:visited{color:#042036;}
-
-
-/* Cuando se pasa el puntero en dirección a un enlace se agrandara y cambiara el color del fondo */
-.enlacepie a:hover {
-    background-color: #1f5858;
-    transform: scale(1.2);
-}
-
-/*Cuando se presiona o activa el enlace saldra de distinto color y el bloque del enlace también cambia de color*/
-.enlacepie a:active{
-    background-color:#4ca1e5;
-    color:#12527c;
-}
-
-/* El formato que se usa con los links */
-.enlacepie:link{
-    flex: 1;
-    text-decoration:none;
-    font-weight: bold; 
-    font-family: sans-serif;
-    text-align: center;
-    display: block;
-}
-
-
-.container {
-    display: flex;
-    gap: 0.625%;
-  }
 
 /*segundo arreglo*/
 
