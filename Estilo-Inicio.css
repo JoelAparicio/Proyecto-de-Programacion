@@ -62,17 +62,21 @@ header{
         display: flex;
         justify-content:space-between;
     }
-    .encabezado2 a{
+    
+    a{
         text-decoration: none;
         font-size: 20px;
         color: rgb(255, 255, 255);
         padding: 12px 20px;
         display: block;
     }
+
     .encabezado2 a:hover{
         background: #ACE5FF;
         color: #011963;
     }
+
+
     .encabezado2 div ul li ul{
         display: flex;
         flex-direction: column;
@@ -123,12 +127,8 @@ header{
     .subcontenedor-2{
         border: 3px solid #011963;
         border-radius: 10px;
+        padding: 0px;
 
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        flex-grow: 2;
-        justify-content: space-between;
     }
     
         .item2-Tabla{
@@ -143,9 +143,8 @@ header{
         }
 
         .item3-Tabla {
-            display: block;
             border: 3px solid #011963;
-            width: max-content;
+            min-height: 100px;
         }
 
         .item2-Tabla h3{
@@ -153,10 +152,13 @@ header{
 
         }
 
-        a:hover{
-            background: #ACE5FF;
-            opacity: 0.5;
-            color: #011963;}
+        #transparencia  a:hover{
+        background: #ACE5FF;
+        opacity: 0.5;
+        color: #011963;
+        }
+        
+    
         
 #contenedor-basico{display: grid; grid-template-rows: repeat(2, ifr);}
     
@@ -165,20 +167,20 @@ header{
 
 
 footer {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     background-color: #0b1f4d;
-    padding: 0;
-    grid-template-columns: repeat(3, 1fr);
+    color: #ACE5FF;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-    .footer{
-        border: 3px solid #011963;
-        padding: 10px;
+
+    footer img {
+        width: 100px;
+        height: 100px;
+        margin: 0 0% 0 30%;
+        border-radius: 50px;
     }
-
-footer img {
-    width: 100px;
-    height: 100px;
-    margin: 0 0% 0 30%;
-}
 
