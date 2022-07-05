@@ -1,41 +1,104 @@
-/*Como son distintos fondos se coloca id ya que no se usara más de un elemento */
-#Ciencia{
-    background-color: #4a89c7;
-  }
-#Programacion{
-    background-color:  #d196d1;
-  }
-#Quimica{
-    background-color: #147e7e;
-  }
 
-/* El titulo de todas las paginas tendra un encabezado destacando el titulo  */
+
+/*AIRLENYS agregué el encabezado pero tuve que hacer cambios*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:   #49B9D5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Pattaya', sans-serif;
+    font-family: 'Tiro Bangla', serif;
+    font-size: 500%;
+    color: #ACE5FF;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
 header{
-    overflow: auto;
+    background: #143278;
     text-align: center;
+    margin: 0%;
+    display: flex;
+    justify-content: center; 
+    justify-content: space-evenly; 
+    align-items: center;
+
 }
 
-h1 {
-    color:   #CCCC99;
-    font-family: Arial, sans-serif;
-    font-size: 80px;
-    font-weight: bold;
-    text-align: center;
-    margin: 1px;
-    text-shadow: 0 0 5px #011963;
-}
+    header .logo{
+    height: 200PX;
+    width: 200PX;
+    }
 
-h3 {
-    color:  #011963;
-    text-align: center;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
-    margin: 1px;
-    padding: 1px;
+    header h2{
+        font-family: "Segoe UI";
+        font-size: 350%;
+        color: #ffffff;
+    }
+    .encabezado{
+        width: 100%;
+        background-color: #ACE5FF;
+
+    }
+
+.encabezado2{
+    background-color: #143278;
+    position: sticky;
 }
+    .encabezado2 div{
+        display: flex;
+        justify-content:left;
+    }
+    .encabezado2 div ul {
+        list-style: none;
+        display: flex;
+        justify-content:space-between;
+    }
+    
+    .encabezado2 a{
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        padding: 12px 20px;
+        display: block;
+    }
+
+    .encabezado2 a:hover{
+        background: #ACE5FF;
+        color: #011963;
+    }
+
+
+    .encabezado2 div ul li ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background: #49B9D5;
+        display: none;
+    }
+    .encabezado2 div ul li:hover > ul{
+        display: block;
+    }
+
+/*AIRLENYS aquí termina la primera parte que agrgué*/
+
 
 /* Ayuda para que los elementos sean tomados en linea  */
-div{
+.divy{
     padding: 10px;
     overflow: auto;
     display: inline-block;
@@ -107,17 +170,17 @@ input {margin: 5px;}
 
 /* El link sera de este color. 
 Una vez sea visitado el link se quiere que tenga el mismo color con el cual se inicio*/
-a:link, a:visited{color:#042036;}
+.enlacepie a:link, a:visited{color:#042036;}
 
 
 /* Cuando se pasa el puntero en dirección a un enlace se agrandara y cambiara el color del fondo */
-a:hover {
+.enlacepie a:hover {
     background-color: #1f5858;
     transform: scale(1.2);
 }
 
 /*Cuando se presiona o activa el enlace saldra de distinto color y el bloque del enlace también cambia de color*/
-a:active{
+.enlacepie a:active{
     background-color:#4ca1e5;
     color:#12527c;
 }
@@ -137,5 +200,26 @@ a:active{
     display: flex;
     gap: 0.625%;
   }
+
+/*segundo arreglo*/
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #0b1f4d;
+    color: #ACE5FF;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+
+    footer img {
+        width: 100px;
+        height: 100px;
+        margin: 0 0% 0 30%;
+        border-radius: 50px;
+    }
 
 

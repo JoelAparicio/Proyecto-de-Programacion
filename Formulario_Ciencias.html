@@ -8,59 +8,103 @@
     <title>Formulario Ciencias</title>
 </head>
 
-<body  id="Ciencia" >
-    <header>
-        <h1>Formulario del Curso de Ciencias Naturales</h1>
-        <h4 class="alterh4">Te apoyamos en tu educación y elección en el campo de las Ciencias Puras, Ciencias Ambientales y Ciencias Biomédicas</h4>
-    </header>
-    <section>
-        <section class="encabezadosec">
-            <div>
-                <h4>Registro de Ciencias</h4> 
-                <p class="pCiencia"> 
-                    Este formulario esta hecho para el área de Ciencias Naturales 
-                    cumpliendo con la misión de fomentar la investigación científica 
-                    formal e informal en todos los niveles académicos. 
-                </p>
+<body>
+    <div class="encabezado">
+        <header >
+            <div >
+            <img class="logo" src="Imagen/Logo.png"> 
             </div>
-        </section>
-    </section>  
+            <div>
+                <h1>Solociencia.com</h1> 
+                <h2>Inicio</h2>
+            </div>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Pattaya&family=Tiro+Bangla&display=swap" rel="stylesheet">   
+        </header>
+        <nav class="encabezado2">
+                <div>
+                    <ul >
+                        <li><a href="#" style="background-color: #EEA2B3; color: black;">Inicio</a></li>
+                        <li>
+                            <a href="#"  style="background-color: #EEA2B3; color: black;">Registro de cursos</a>
+                            <ul  style="background-color: #EEA2B3; color: black;">
+                                <li><a href="#">Curso de Ciencias Naturales</a></li>
+                                <li><a href="#">Curso de Química y Biología </a></li>
+                                <li><a href="#">Curso de programación</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Referencias</a></li>
+                        <li><a href="#">Contáctenos </a></li>
+                    </ul>
+                </div>
+        </nav>
+    </div>
+    <div>
+        <div>
+            <h1>Formulario del Curso de Ciencias Naturales</h1>
+            <h4 class="alterh4">Te apoyamos en tu educación y elección en el campo de las Ciencias Puras, Ciencias Ambientales y Ciencias Biomédicas</h4>
+        </div>
+        <div>
+            <div class="encabezadosec">
+                <div class="divy">
+                    <h4>Registro de Ciencias</h4> 
+                    <p class="pCiencia"> 
+                        Este formulario esta hecho para el área de Ciencias Naturales 
+                        cumpliendo con la misión de fomentar la investigación científica 
+                        formal e informal en todos los niveles académicos. 
+                    </p>
+                </div>
+            </div>
+        </div>  
 
-    <section class="formulario">
-        <form method=post action="Registro_Ciencia.jsp">
-            <fieldset name= "Información del Participante">
-                <legend>Información del Participante</legend>
-                <br>
-                <section>
-                    <label for="fname">Nombre:</label><br> 
-                    <input type="text"  name="fname" value=""><br><br>
+        <div class="formulario">
+            <form method=post action="Registro_Ciencia.jsp">
+                <fieldset name= "Información del Participante">
+                    <legend>Información del Participante</legend>
+                    <br>
+                    <div>
+                        <label for="fname">Nombre:</label><br> 
+                        <input type="text"  name="fname" value=""><br><br>
 
-                    <label for="lname">Apellido:</label><br>
-                    <input type="text"  name="lname" value=""><br><br>
+                        <label for="lname">Apellido:</label><br>
+                        <input type="text"  name="lname" value=""><br><br>
 
-                    <label for="cedula">Cédula:</label><br> 
-                    <input type="text"  name="cedula" value=""><br><br>
+                        <label for="cedula">Cédula:</label><br> 
+                        <input type="text"  name="cedula" value=""><br><br>
 
-                        <label>Inicio del Curso:</label>
-                        <br>
-                        <input type="radio" id="jul21" name="curso" value="21 de Julio">
-                        <label for="jul21">21 de Julio</label><br>
-                        <input type="radio" id="oct24" name="curso" value="24 de Octubre">
-                        <label for="oct24">24 de Octubre</label><br>
-                        <input type="radio" id="nov14" name="curso" value="14 de Noviembre">
-                        <label for="nov14">14 de Noviembre</label><br>
+                            <label>Inicio del Curso:</label>
+                            <br>
+                            <input type="radio" id="jul21" name="curso" value="21 de Julio">
+                            <label for="jul21">21 de Julio</label><br>
+                            <input type="radio" id="oct24" name="curso" value="24 de Octubre">
+                            <label for="oct24">24 de Octubre</label><br>
+                            <input type="radio" id="nov14" name="curso" value="14 de Noviembre">
+                            <label for="nov14">14 de Noviembre</label><br>
 
-                    <br><br>
-                    <input type="submit" value="Enviar Formulario"><input type="reset" style="margin-left: 50px" value="Borrar">
-                </section>
-            </fieldset>
-        </form>
-    </section>
+                        <br><br>
+                        <input type="submit" value="Enviar Formulario"><input type="reset" style="margin-left: 50px" value="Borrar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <img src="./imagen/logo utp.jpg"> <br> <br>
+            <img src="./imagen/logo fisc.jpg">
+        </div>
 
-        <footer>
-            <nav class="container">
-            
-            </nav>
-        </footer>
+        <div>
+            <h3>Joel Aparicio</h3><br>
+            <h3>Michael Cerrud</h3><br>
+            <h3>Airlenys Recuero</h3><br>
+            <h3>Gabriela Vazques</h3><br>
+        </div>
+        <div>
+            <h2>Proyecto semestral </h2><br>
+            <h2>Profesor Paulo Piota</h2>
+        </div>
+    </footer>
 </body>
 </html>
