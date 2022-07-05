@@ -160,7 +160,23 @@ p{
     background-color: #ffffff;
     padding: 5px 10px;}
 
-input {margin: 5px;}
+    button{
+        background-color: #3874c4;
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        margin-right: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 3px 3px 3px 3px;
+    }
+    
+    button:hover{
+        background-color: rgb(143, 120, 247);
+    }
+
 
 
 /*segundo arreglo*/
