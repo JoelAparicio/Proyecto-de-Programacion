@@ -120,14 +120,15 @@ header{
 table{
     table-layout: fixed;
     border:none;
-    border-spacing:5px 5px
+    border-spacing:1% 1%;
+    width: 100%;
+	height: 100%;
 }
 
 th, td {
-    border: 1px;
-    width: 65px;
-    height: 65px;
-    word-wrap: break-word;
+    border: 0.5%;
+    font-size: 0.7em;
+    
 }
 
 
@@ -160,17 +161,16 @@ th, td {
     background-color: #FF66FF;
 }
 .segundatabla{
-    margin-top: 50px;
-    margin-left: 150px;
-    margin-bottom: 50px;
+    margin-top: 2em;
+    margin-left:2em;
+    margin-bottom: 2em;
 }
 .lantanidosyactinidos{
     background-color: #7fca49;
 }
 
 .TablaP{
-
-    padding: 20PX;
+    padding: 1.5em;
 }
 
     #Tabla a:hover {
@@ -178,13 +178,12 @@ th, td {
         color:#ffffff;
         transform: scale(1.1);
         display:block; 
-        width: 100%;
+        width: 65%;
         height: 100%;
         text-decoration: none;
-        padding: 3%;
     }
 
-    a{
+    #Tabla a{
         text-decoration: none;
         color:#000000;}
 
