@@ -125,8 +125,8 @@ table{
 
 th, td {
     border: 1px;
-    width: 65px;
-    height: 65px;
+    width: 30px;
+    height: 30px;
     word-wrap: break-word;
 }
 
@@ -168,9 +168,12 @@ th, td {
     background-color: #7fca49;
 }
 
+
 .TablaP{
 
-    padding: 20PX;
+    padding: 5PX;
+    width: 100%;
+    overflow: scroll;
 }
 
     #Tabla a:hover {
@@ -184,7 +187,7 @@ th, td {
         padding: 3%;
     }
 
-    a{
+    #Tabla a{
         text-decoration: none;
         color:#000000;}
 
