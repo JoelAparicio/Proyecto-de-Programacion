@@ -14,7 +14,7 @@
 <%
     String Nombre = request.getParameter("nombre");
     String Apellido = request.getParameter("apellido");
-    String Contraseña = request.getParameter("contraseña");
+    String Contraseña = request.getParameter("contrasena");
     String Edad = request.getParameter("edad");
 
     Class.forName("com.mysql.jdbc.Driver");
