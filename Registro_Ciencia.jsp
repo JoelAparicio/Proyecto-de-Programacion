@@ -9,8 +9,6 @@
 </head>
 <body>
 
-<h1>Registro de Ciencias Naturales:</h1> <br>
-
 <%@page import="java.sql.*"%> 
 
 
@@ -29,8 +27,9 @@
     
 %>
 
-           <h4 class="alterh4">Registro exitoso, Muchas Gracias!!</h4>
-
+<head>
+    <meta http-equiv="refresh" content="1; url=http://localhost:8088/Programación_2/Semestral/Gabriela/Pagina_Exito.html">
+</head>
            
 
 
