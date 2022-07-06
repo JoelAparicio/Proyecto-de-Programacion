@@ -150,9 +150,20 @@ header{
     background-size: cover;
     background-position: center center;
     background-color: #ACE5FF;
-
-
 }
+
+    .subcontenedor h3{
+        font-size: 100%;
+        color: #000000;
+    }
+
+
+    .subcontenedor p{
+        font-size: 100%;
+        color: #000000;
+        text-align: justify;
+    }
+
 
     .subcontenedor-1{
         border-radius: 5px;
@@ -199,13 +210,13 @@ header{
             justify-content: flex-end;
             flex-basis: 400px;
             color: #ffffff;
-            text-shadow: 8px 8px 16px #000000;
-            z-index: 3;
         }
 
         .item3-Tabla {
-            border: 3px solid #011963;
             min-height: 100px;
+            color: #000;
+            font-size: 100%;
+            font-family: "Segoe UI";
         }
 
         .item2-Tabla h3{
@@ -214,10 +225,8 @@ header{
         }
 
         #transparencia  a:hover{
-        background: #ACE5FF;
-        opacity: 0.5;
-        color: #011963;
-        z-index: 1;
+        background: rgba(184, 225, 244, 0.5);
+
         }
         
         
