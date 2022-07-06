@@ -158,14 +158,20 @@ p{
 .formulario{font-family: Arial;
     color:#000000;
     background-color: #ffffff;
-    padding: 5px 10px;}
+    padding: 5px 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    border-radius: 3px;
+}
 
     button{
         background-color: #3874c4;
         border: none;
         color: white;
         padding: 10px 24px;
-        margin-right: 20px;
+        margin-right: 40px;
+        margin-left: 28px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
