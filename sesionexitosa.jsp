@@ -20,39 +20,39 @@
       Statement dbstatement = dbconect.createStatement();
      try
       {
-          PreparedStatement consultaP = dbconect.prepareStatement("SELECT * FROM usuario WHERE nombre=? AND contraseña=?");
-          consultaP.setString(1, Nombre);
-          consultaP.setString(2, Contraseña);
+    	  PreparedStatement consultaP = dbconect.prepareStatement("SELECT * FROM usuario WHERE nombre=? AND contraseña=?");
+    	  consultaP.setString(1, Nombre);
+    	  consultaP.setString(2, Contraseña);
 
-          ResultSet resultado = consultaP.executeQuery();
+    	  ResultSet resultado = consultaP.executeQuery();
       
-          if(resultado.next()){
-              out.println("USUARIO CORRECTO");%>
-              
-              <head>
+    	  if(resultado.next()){
+    		  out.println("USUARIO CORRECTO");%>
+    		  
+    		  <head>
                 <meta http-equiv="refresh" content="1; url=http://localhost:8088/Programación_2/Semestral/Michael/4. Pagina de sesion fallida.html">
-               </head>
-               
+           	</head>
+           	
            <% 
-          }
+    	  }
            else{
-              out.println("USUARIO INCORRECTO");%>
-              
-              
-              <head>
+    		  out.println("USUARIO INCORRECTO");%>
+    		  
+    		  
+      		<head>
                 <meta http-equiv="refresh" content="1; url=http://localhost:8088/Programación_2/Semestral/Michael/4. Pagina de sesion fallida.html">
-               </head>
-               
-               <% }
+           	</head>
+           	
+           	<% }
            
-           }     
-               
+           } 	
+           	
          
        
-              catch (Exception e)
+      		catch (Exception e)
       {
-              out.println( "ERROR--<br>");
-              out.println("--Consulta Invalida-");
+    		  out.println( "ERROR--<br>");
+    		  out.println("--Consulta Invalida-");
       }
              %>
 
