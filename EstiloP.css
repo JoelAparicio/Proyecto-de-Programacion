@@ -67,6 +67,7 @@ header{
         font-family: "Segoe UI";
         font-size: 350%;
         color: #ffffff;
+        
     }
         
 
@@ -209,6 +210,7 @@ th, td {
     
 .contactanos{
     padding: 20px;
+    text-align: center;
 }
 
 .contactanos h1{
