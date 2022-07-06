@@ -4,20 +4,15 @@
 }
 
 body{
-    background-color:   #daf8ff;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    background-color:   #daf8ff
 }
 
 h1{
     font-family: 'ABeeZee', sans-serif;
     font-family: 'Pattaya', sans-serif;
     font-family: 'Tiro Bangla', serif;
-    font-size: 500%;
+    font-size: 300%;
     color: #ACE5FF;
-    text-align: center;
 }
 
 
@@ -31,32 +26,59 @@ header{
     text-align: center;
     margin: 0%;
     display: flex;
-    justify-content: center; 
-    justify-content: space-evenly; 
+    justify-content: center;  
     align-items: center;
+    flex-direction: column;
+    padding-left: 25px;
 
 }
 
     header .logo{
-    height: 200PX;
-    width: 200PX;
+    height: 150PX;
+    width: 150PX;
     }
 
-    header h2{
+
+    .encabezado{
+        width: 100%;
+        background-color: #143278;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+.menu{
+    background-color: #143278;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.encabezado1{
+    width: 100%;
+    padding: 5% 0% 5% 0%;
+    text-align: center;
+
+
+}
+    .encabezado1 h2{
         font-family: "Segoe UI";
         font-size: 350%;
         color: #ffffff;
     }
-    .encabezado{
-        width: 100%;
-        background-color: #ACE5FF;
+        
 
-    }
 
 .encabezado2{
     background-color: #143278;
-    position: sticky;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
+
+    
     .encabezado2 div{
         display: flex;
         justify-content:left;
@@ -67,9 +89,10 @@ header{
         justify-content:space-between;
     }
     
-    .encabezado2 a{
+    a{
         text-decoration: none;
-        font-size: 20px;
+        font-size: 200%;
+        font-family: "Segoe UI";
         color: rgb(255, 255, 255);
         padding: 12px 20px;
         display: block;
@@ -91,8 +114,6 @@ header{
     .encabezado2 div ul li:hover > ul{
         display: block;
     }
-
-
 table{
     table-layout: fixed;
     border:none;
@@ -206,23 +227,24 @@ th, td {
     margin: 0 0 5% 0;
 }
 
-   footer {
+footer {
     display: flex;
     flex-direction: row;
     background-color: #0b1f4d;
     color: #ACE5FF;
-    padding: 20px;
+    padding: 40px;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
 }
 
-
-    footer img {
-        width: 100px;
-        height: 100px;
-        margin: 0 0% 0 30%;
-        border-radius: 50px;
+    footer h2{
+        font-family: 'ABeeZee', sans-serif;
+        font-size: 150%;
+        color: #ffffff;
     }
-
-
+    footer img {
+        width: 150px;
+        height: 150px;
+        margin: 0 0% 0 30%;
+        border-radius: 50%;
+    }
