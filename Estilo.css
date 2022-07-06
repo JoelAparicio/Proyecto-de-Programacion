@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -115,8 +116,6 @@ header{
         display: block;
     }
 
-/*Airlenys Inicio Paguina principal 1*/
-
 .contenedor-bienv{
     height: 200px;
 }
@@ -230,10 +229,14 @@ header{
 
         }
         
-
-#contenedor-basico{display: grid; grid-template-rows: repeat(2, ifr);margin: 10px;}  
+        
+    
+        
+#contenedor-basico{display: grid; grid-template-rows: repeat(2, ifr);margin: 10px;}
+    
 
 #marge{margin: 0px 50px 0px 50px;display: inline-block;}
+
 
 
 /*Joel TablaPeriodica Paguina  2*/
