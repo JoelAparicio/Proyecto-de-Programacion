@@ -1,0 +1,32 @@
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    padding-right: 20%;
+}
+.contenedor{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    margin-right: 20%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.boleto{
+    display: flex;
+    background-color: blue;
+    color: white;
+    padding-left: 30% ;
+    padding-bottom: 10%;
+    margin:none;
+    border: none;
+    justify-content: center;
+}
+img{
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 10%;
+    margin-top: 2%;
+    border: 2px solid;
+}
