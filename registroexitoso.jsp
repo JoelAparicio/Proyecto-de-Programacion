@@ -4,7 +4,6 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<META HTTP-EQUIV="Refresh" CONTENT="0;URL=3.Pagina registro exitoso.html">
 <title>Registro exitoso de estudiante</title>
 </head>
 <body>
@@ -23,6 +22,10 @@
     String InsertSQL = "Insert Into usuario (nombre,apellido,contraseña,edad) Values('"+Nombre+"','"+Apellido+"','"+Contraseña+"','"+Edad+"')";
     dbstatement.executeUpdate(InsertSQL);
 %>
+
+<head>
+    <meta http-equiv="refresh" content="1; url=http://localhost:8088/Programación_2/Semestral/Michael/3. Pagina registro exitoso.html">
+</head>
 
 </body>
 </html>
