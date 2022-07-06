@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>PRACTICA JSP</title>
+    <title>Sesion Exitosa</title>
 </head>
 
 <body>
@@ -18,7 +18,7 @@ Class.forName("com.mysql.jdbc.Driver");
 Connection dbconect = DriverManager.getConnection("jdbc:mysql://localhost:3306/formulario_semestral","root","");
 Statement dbstatement = dbconect.createStatement();
 try{
-    PreparedStatement consultaP = dbconect.prepareStatement("SELECT * FROM datospersonales WHERE nombre=? AND Contraseña=?");
+    PreparedStatement consultaP = dbconect.prepareStatement("SELECT * FROM usuario WHERE nombre=? AND Contraseña=?");
     consultaP.setString(1, Nombre);
     consultaP.setString(2, Contraseña);
     ResultSet resultado = consultaP.executeQuery();
