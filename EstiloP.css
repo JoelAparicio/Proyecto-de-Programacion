@@ -127,10 +127,8 @@ table{
 
 th, td {
     border: 0.5%;
-    font-size: 0.7em;
-    
+    font-size: 0.7em; 
 }
-
 
 .vacio{
     border:none;
