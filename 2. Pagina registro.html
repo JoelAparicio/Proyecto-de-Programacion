@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" id="bodym">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina registro</title>
+    <link rel="stylesheet" href="./Estilo.css">
+</head>
+
+<body id="bodym">
+    <div class="contenedor-Seccion">
+        <div class="contenedor-formulario">
+            <img src="./imagen/Logo.png" id="logop">
+            <h2>Regístrate</h2>
+            <h3>Bienvenidos a solo ciencias.com</h3>
+            <form class="Seccion-form" action="registroexitoso.jsp">
+                <div class="Seccion-input">
+                    <input type="text" id="boton-nombre" name="nombre" placeholder="Nombre"/>
+                </div> 
+                
+                <div class="Seccion-input"> 
+                    <input type="text" id="boton-apellido" name="apellido" placeholder="Apellido"/>
+                </div>
+
+                <div class="Seccion-input">
+                    <input type="password" id="boton-password" name="contrasena" placeholder="Contraseña"/>  
+                </div>
+
+                <div class="Seccion-input">
+                    <input type="number" id="boton-edad" name="edad" min="10" max="100" placeholder="Edad"/> <br>
+                </div>
+                
+                <div class="Seccion-botones">
+                    <div class="Seccion-control">
+                        <button type="button" id="boton-registro"> <a href="./1. Pagina principal.html">Volver</a> </button> 
+                    </div>
+                    <div class="Seccion-control">
+                        <button type="submit" name="Enviar" id="boton-Enviar">Registrarse</button>
+                    </div>   
+                </div>
+            </form> 
+        </div> 
+    </div>
+</body>
+</html>
