@@ -99,7 +99,9 @@ button{
         background-color: #ACE5FF;
         color: #0b1f4d;
     }
-
+#boton-Enviar{
+    padding: 0px 20px 0px 20px;
+}
 
 ::placeholder {
     color: rgb(182, 182, 182);
