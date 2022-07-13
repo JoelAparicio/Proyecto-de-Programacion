@@ -149,7 +149,6 @@ header{
     border-radius: 5px;
     padding-left: auto;
     padding: 10px;
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-color: #ACE5FF;
@@ -246,8 +245,7 @@ header{
     background-image: url('./imagen/patron.png');
     align-items: center;
     justify-content: center;
-    height: 100%;
-    width: 100%;
+
 }
 
 .contenedor-formulario {
@@ -322,19 +320,21 @@ header{
     background-color: #EEA2B3;
     border: none;
     color: white;
-    padding: 10px 24px;
-    margin-right: 20px;
+    padding: 0PX;
+    margin-right: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px;
 }
     button:hover, a:hover{
         background-color: #ACE5FF;
         color: #0b1f4d;
     }
-
+    #boton-Enviar{
+        padding: 6px 20px 6px 20px;
+    }
 
 ::placeholder {
     color: rgb(182, 182, 182);
